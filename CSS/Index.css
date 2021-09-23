@@ -1,0 +1,136 @@
+body
+{
+  margin: 0px;
+}
+#menu{
+  height: 100px;
+  width:100%;
+}
+#logo
+{
+  float:left;
+  font-family: Lost in Wild;
+  font-size:20px;
+  margin-left: 70px;
+  margin-top:20px;
+}
+#rightmenu
+{
+  float:right;
+}
+#rightmenu ul
+{
+  list-style: none;
+  margin:0px;
+  padding:0px;
+  margin-right: 50px;
+  margin-top:40px;
+}
+#rightmenu ul li
+{
+  display: inline-block;
+  font-family: arial;
+  font-size:15px;
+  margin-right:40px;
+}
+#slider
+{
+  height: calc(100% - 160px);
+  width: auto;
+  background-color: #f7f5f5;
+  margin: 0px 80px 80px 80px;
+}
+#s1
+{
+  float:left;
+}
+#s2
+{
+  float:right;
+}
+#s11
+{
+  font-family: arial;
+  font-size:80px;
+  margin-top:200px;
+  margin-left:70px;
+}
+#s12
+{
+  font-family: arial;
+  font-size:18px;
+  color:gray;
+  margin-left:70px;
+  margin-top:10px;
+}
+#s13
+{
+  font-family: arial;
+  font-size:18px;
+  line-height: 40px;
+  height:40px;
+  width:120px;
+  border-bottom:1px solid black;
+  margin-left:70px;
+  margin-top:30px;
+}
+#s2 img
+{
+  height:500px;
+  width:550px;
+  margin-right:70px;
+}
+#productcategory
+{
+  list-style: none;
+  font-family: arial;
+  font-size: 14px;
+}
+#productcategory li
+{
+  margin-top:0px;
+  display: inline-block;
+  margin-right:30px;
+}
+#productbox
+{
+  height: 100%;
+  width: auto;
+  margin: 80px;
+}
+#box{
+  height: auto;
+  width:278px;
+  float:left;
+  margin-left:50px;
+  margin-top:50px;
+}
+#imgbox
+{
+  height: 330px;
+  width:278px;
+  background-color: #f7f5f5;
+}
+#imgbox img
+{
+  height:260px;
+  width:220px;
+  position: relative;
+  top:0px;
+  left:50%;
+  transform: translateX(-50%);
+}
+#productname
+{
+  font-family: arial;
+  font-size:15px;
+  text-align: center;
+  margin-top:30px;
+}
+#productprice
+{
+  font-family: arial;
+  font-size: 12px;
+  color:silver;
+  text-align: center;
+}

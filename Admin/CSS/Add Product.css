@@ -1,0 +1,81 @@
+body
+{
+  margin: 0px;
+}
+#menu{
+  height: 100%;
+  width:230px;
+  background-color: #f7f5f5;
+  position:fixed;
+  top:0px;
+  left:0px;
+}
+#mainmenu
+{
+  margin-top:200px;
+}
+#mainmenu ul
+{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-family: arial;
+  font-size:16px;
+}
+#mainmenu ul li
+{
+  text-align: right;
+  margin-right:15px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 5px;
+  margin-left:15px;
+}
+#main{
+  height: 100%;
+  margin-left:300px;
+  width: calc(90% - 150px);
+  position: absolute;
+  overflow: hidden;
+}
+#title
+{
+  font-family: arial black;
+  font-size:7cm;
+  line-height: 250px;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.05;
+}
+#form
+{
+  margin-top:80px;
+}
+#form input[type=text],
+#form select,
+#form input[type=file]
+{
+  height: 50px;
+  width:90%;
+  padding-left:10px;
+  margin-top:40px;
+}
+#form textarea
+{
+  height: 100px;
+  width:90%;
+  padding-left: 10px;
+  margin-top:40px;
+}
+#btn
+{
+  height: 40px;
+  width: 160px;
+  background-color: #b2c0ce;
+  border:none;
+  border-radius: 40px;
+  margin-top:100px;
+  position: absolute;
+  right:0px;
+  margin-right:10%;
+}

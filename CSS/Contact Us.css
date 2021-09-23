@@ -1,0 +1,63 @@
+body
+{
+  margin: 0px;
+}
+#main{
+  height: 100%;
+  width:100%;
+}
+#box1{
+  width: 25%;
+  float:left;
+  font-family: arial;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 150px;
+  font-weight: bold;
+}
+#address
+{
+  font-size: 15px;
+  font-weight: 100;
+  color:silver;
+  text-align: left;
+  margin-left:120px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  margin-top:30px;
+}
+#box2{
+  width:60%;
+  float:right;
+  margin-top:150px;
+}
+input[type=text]
+{
+  height: 40px;
+  width:400px;
+  margin-left: 20px;
+}
+input[type=email]
+{
+  height: 40px;
+  width:825px;
+  margin-top:50px;
+  margin-left: 20px;
+}
+textarea
+{
+  height: 100px;
+  width: 825px;
+  margin-top:50px;
+  margin-left:20px;
+}
+#btn
+{
+  height: 40px;
+  width: 100px;
+  border: none;
+  background-color: #202020;
+  color:white;
+  margin-left:20px;
+  margin-top:50px;
+}

@@ -1,0 +1,48 @@
+body
+{
+  margin:0px;
+}
+#main{
+  height: 700px;
+  width:50%;
+  margin-left:80px;
+}
+#title
+{
+  font-family: arial black;
+  font-size:9cm;
+  margin-left:00px;
+  line-height: 300px;
+  margin-bottom: 20px;
+  opacity: 0.1;
+  margin-top:30px;
+}
+#username input,
+#password input
+{
+  height:40px;
+  width:400px;
+  margin-top:40px;
+  margin-left:150px;
+  padding-left:5px;
+}
+#btn input
+{
+  height: 40px;
+  width: 160px;
+  background-color: #b2c0ce;
+  border:none;
+  border-radius: 40px;
+  margin-top:60px;
+  margin-left:380px;
+}
+#img
+{
+  position: absolute;
+  top:0px;
+  right:150px;
+}
+#img img
+{
+  width: 70%;
+}

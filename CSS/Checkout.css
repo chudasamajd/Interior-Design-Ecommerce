@@ -1,0 +1,101 @@
+body
+{
+  margin: 0px;
+}
+#main{
+  height: 100%;
+  width:100%;
+}
+#box1{
+  width: 25%;
+  float:left;
+}
+#title
+{
+  font-family: arial;
+  font-size: 40px;
+  position: absolute;
+  top:140px;
+  left:50%;
+  transform: translateX(-50%);
+}
+#title::before{
+  position: absolute;
+  content: '';
+  height: 0px;
+  width: 130px;
+  border-top:2px solid black;
+  top:100%;
+  left:50%;
+  transform: translateX(-50%);
+}
+#bill
+{
+  margin-left:-100px;
+  height: 320px;
+  width:400px;
+  margin-top:150px;
+  font-family: arial;
+  font-size:20px;
+  padding: 20px;
+  border:3px dashed silver;
+  padding-top:40px;
+}
+#line
+{
+  height: 0px;
+  width:400px;
+  border-top: 3px dashed gray;
+}
+.fvalue
+{
+  width: 150px;
+  text-align: right;
+  float:right;
+}
+#address
+{
+  font-size: 15px;
+  font-weight: 100;
+  color:silver;
+  text-align: left;
+  margin-left:120px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  margin-top:30px;
+}
+#box2{
+  width:60%;
+  float:right;
+  margin-top:150px;
+}
+input[type=text]
+{
+  height: 40px;
+  width:400px;
+  margin-left: 20px;
+}
+input[type=email]
+{
+  height: 40px;
+  width:825px;
+  margin-top:50px;
+  margin-left: 20px;
+}
+textarea
+{
+  height: 100px;
+  width: 825px;
+  margin-top:50px;
+  margin-left:20px;
+}
+#btn
+{
+  height: 40px;
+  width: 100px;
+  border: none;
+  background-color: #202020;
+  color:white;
+  margin-left:20px;
+  margin-top:50px;
+}
